@@ -1,6 +1,7 @@
 var express = require('express'),
     router = express.Router(),
     bodyParser = require('body-parser'),
+    passport = require('passport-local'),
     methodOverride = require('method-override');
 
 var artistsController = require('../controllers/artists');
